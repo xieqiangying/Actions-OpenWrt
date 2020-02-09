@@ -1,16 +1,16 @@
 # Actions Status
 
 - `R619AC(竞斗云2.0_128M)` Branch:
-- - Building Status: ![OpenWrt-R619AC](https://github.com/RealKiro/Actions-OpenWrt/workflows/OpenWrt-R619AC/badge.svg?branch=master)
-- - Download Firmwares: [Actions/R619AC](https://github.com/RealKiro/Actions-OpenWrt/actions?query=is%3Asuccess+branch%3Amaster).
+  - Building Status: ![OpenWrt-R619AC](https://github.com/RealKiro/Actions-OpenWrt/workflows/OpenWrt-R619AC/badge.svg?branch=master)
+  - Download Firmwares: [Actions/R619AC](https://github.com/RealKiro/Actions-OpenWrt/actions?query=is%3Asuccess+branch%3Amaster).
 
 - `Newifi3` Branch:
-- - Building Status: ![OpenWrt-Newifi3](https://github.com/RealKiro/Actions-OpenWrt/workflows/OpenWrt-Newifi3/badge.svg?branch=newifi3)
-- - Download Firmwares: [Actions/Newifi3](https://github.com/RealKiro/Actions-OpenWrt/actions?query=is%3Asuccess+branch%3Anewifi3).
+  - Building Status: ![OpenWrt-Newifi3](https://github.com/RealKiro/Actions-OpenWrt/workflows/OpenWrt-Newifi3/badge.svg?branch=newifi3)
+  - Download Firmwares: [Actions/Newifi3](https://github.com/RealKiro/Actions-OpenWrt/actions?query=is%3Asuccess+branch%3Anewifi3).
 
 - `K2` Branch:
-- - Building Status: ![OpenWrt-k2](https://github.com/RealKiro/Actions-OpenWrt/workflows/OpenWrt-k2/badge.svg?branch=k2)
-- - Download Firmwares: [Actions/K2](https://github.com/RealKiro/Actions-OpenWrt/actions?query=is%3Asuccess+branch%3Ak2).
+  - Building Status: ![OpenWrt-k2](https://github.com/RealKiro/Actions-OpenWrt/workflows/OpenWrt-k2/badge.svg?branch=k2)
+  - Download Firmwares: [Actions/K2](https://github.com/RealKiro/Actions-OpenWrt/actions?query=is%3Asuccess+branch%3Ak2).
 
 ---
 
