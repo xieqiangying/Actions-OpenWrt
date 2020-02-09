@@ -1,3 +1,7 @@
+# Current Branch: R619AC(竞斗云2.0_128M)
+### Building Status: ![Build OpenWrt R619AC](https://github.com/RealKiro/Actions-OpenWrt/workflows/OpenWrt-R619AC/badge.svg?branch=master)
+### Download Firmwares: [Actions/R619AC](https://github.com/RealKiro/Actions-OpenWrt/actions?query=is%3Asuccess+branch%3Amaster).
+
 # Actions-OpenWrt
 
 [![LICENSE](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square&label=LICENSE)](https://github.com/P3TERX/Actions-OpenWrt/blob/master/LICENSE)
