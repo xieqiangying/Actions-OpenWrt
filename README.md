@@ -14,7 +14,7 @@
 
 - `X64/X86` Branch:
   - Building Status: ![OpenWrt-X64](https://github.com/RealKiro/Actions-OpenWrt/workflows/OpenWrt-X64/badge.svg?branch=x86_64)
-  - Download Firmwares: [Actions/K2](https://github.com/RealKiro/Actions-OpenWrt/actions?query=is%3Asuccess+branch%3Ax86_64).
+  - Download Firmwares: [Actions/X64](https://github.com/RealKiro/Actions-OpenWrt/actions?query=is%3Asuccess+branch%3Ax86_64).
 
 ---
 
