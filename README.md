@@ -1,7 +1,7 @@
 # Actions Status
 
 - `R619AC(竞斗云2.0_128M)` Branch:
-  - Building Status: ![OpenWrt-R619AC](https://github.com/RealKiro/Actions-OpenWrt/workflows/OpenWrt-R619AC/badge.svg?branch=master)
+  - Building Status: ![OpenWrt-R619AC](https://github.com/RealKiro/Actions-OpenWrt/workflows/OpenWrt-R619AC/badge.svg?branch=r619ac)
   - Download Firmwares: [Actions/R619AC](https://github.com/RealKiro/Actions-OpenWrt/actions?query=is%3Asuccess+branch%3Amaster).
 
 - `Newifi3` Branch:
