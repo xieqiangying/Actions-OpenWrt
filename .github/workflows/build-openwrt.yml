@@ -6,14 +6,12 @@
 # Blog: https://p3terx.com
 #=================================================
 
-name: OpenWrt-R619AC
+name: OpenWrt-X64
 
 on:
-  release:
-    types: [published]
   push:
     branches:
-      - master
+      - x86_64
     paths:
       - '.config'
   schedule:
