@@ -10,8 +10,8 @@ sed -i 's/192.168.1.1/192.168.0.1/g' package/base-files/files/bin/config_generat
 
 # 更改默认主题为Argon
 # sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' package/feeds/luci/luci/Makefile
-git https://github.com/sypopo/luci-theme-argon-mc.git package/mine/luci-theme-argon-mc
-sed -i 's/luci-theme-bootstrap/luci-theme-argon-mc/g' package/feeds/luci/luci/Makefile
+git https://github.com/jerrykuku/luci-theme-argon.git -b 18.06 package/mine/luci-theme-argon_new
+sed -i 's/luci-theme-bootstrap/luci-theme-argon_new/g' package/feeds/luci/luci/Makefile
 
 # 复杂的AdGuardHome的openwrt的luci界面
 git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/mine/luci-app-adguardhome
