@@ -18,6 +18,7 @@ git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/mine
 
 # DiskMan for LuCI (WIP)
 git clone https://github.com/lisaac/luci-app-diskman.git package/mine/luci-app-diskman
+mkdir -p package/mine/parted && cp -i package/mine/luci-app-diskman/Parted.Makefile package/mine/parted/Makefile
 
 # KPR plus+
 git clone https://github.com/project-openwrt/luci-app-koolproxyR.git package/mine/luci-app-koolproxyR
