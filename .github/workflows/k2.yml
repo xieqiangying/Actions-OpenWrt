@@ -121,15 +121,15 @@ jobs:
       if: steps.organize.outputs.status == 'success' && !cancelled()
       with:
         name: Actions-OpenWrt_openwrt-ramips-mt7620-phicomm_psg1218a-squashfs-sysupgrade.bin
-        path: /home/runner/work/Actions-OpenWrt/Actions-OpenWrt/openwrt/bin/targets/ramips/mt7620/openwrt-ramips-mt7620-phicomm_psg1218a-squashfs-sysupgrade.bin
+        path: openwrt/bin/targets/ramips/mt7620/openwrt-ramips-mt7620-phicomm_psg1218a-squashfs-sysupgrade.bin
     - name: Upload Kernel bin
       uses: actions/upload-artifact@master
       if: steps.organize.outputs.status == 'success' && !cancelled()
       with:
         name: Actions-OpenWrt_openwrt-ramips-mt7620-phicomm_psg1218a-initramfs-kernel.bin
-        path: /home/runner/work/Actions-OpenWrt/Actions-OpenWrt/openwrt/bin/targets/ramips/mt7620/openwrt-ramips-mt7620-phicomm_psg1218a-initramfs-kernel.bin
+        path: openwrt/bin/targets/ramips/mt7620/openwrt-ramips-mt7620-phicomm_psg1218a-initramfs-kernel.bin
     - name: Upload SHA256SUMS
       uses: actions/upload-artifact@master
       with:
         name: sha256sums
-        path: /home/runner/work/Actions-OpenWrt/Actions-OpenWrt/openwrt/bin/targets/ramips/mt7620/sha256sums
+        path: openwrt/bin/targets/ramips/mt7620/sha256sums
