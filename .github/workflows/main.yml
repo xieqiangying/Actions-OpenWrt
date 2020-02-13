@@ -127,7 +127,7 @@ jobs:
       with:
         name: Actions-OpenWrt_openwrt-ramips-mt7621-d-team_newifi-d2-initramfs-kernel.bin
         path: /home/runner/work/Actions-OpenWrt/Actions-OpenWrt/openwrt/bin/targets/ramips/mt7621/openwrt-ramips-mt7621-d-team_newifi-d2-initramfs-kernel.bin
-    - name: Upload Images SHA256SUMS
+    - name: Upload SHA256SUMS
       uses: actions/upload-artifact@master
       with:
         name: sha256sums
