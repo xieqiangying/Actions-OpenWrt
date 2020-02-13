@@ -119,7 +119,7 @@ jobs:
       with:
         name: Actions-OpenWrt_openwrt-x86-64-combined-squashfs.img
         path: /home/runner/work/Actions-OpenWrt/Actions-OpenWrt/openwrt/bin/targets/x86/64/openwrt-x86-64-combined-squashfs.img
-    - name: Upload Images SHA256SUMS
+    - name: Upload SHA256SUMS
       uses: actions/upload-artifact@master
       with:
         name: sha256sums
