@@ -113,9 +113,14 @@ jobs:
         echo "::set-env name=FIRMWARE::$(pwd)"
         echo "::set-output name=status::success"
 
-    - name: Upload firmware directory
+    - name: Upload Combined DVD Image
       uses: actions/upload-artifact@master
       if: steps.organize.outputs.status == 'success' && !cancelled()
       with:
-        name: OpenWrt_firmware
-        path: ${{ env.FIRMWARE }}
+        name: Actions-OpenWrt_openwrt-x86-64-combined-squashfs.img
+        path: /home/runner/work/Actions-OpenWrt/Actions-OpenWrt/openwrt/bin/targets/x86/64/openwrt-x86-64-combined-squashfs.img
+    - name: Upload Images SHA256SUMS
+      uses: actions/upload-artifact@master
+      with:
+        name: sha256sums
+        path: /home/runner/work/Actions-OpenWrt/Actions-OpenWrt/openwrt/bin/targets/x86/64/sha256sums
