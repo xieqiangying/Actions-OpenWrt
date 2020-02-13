@@ -13,7 +13,7 @@ on:
     branches:
       - x86_64
     paths:
-      - '.config'
+      - 'Lean_x86_64.config'
   schedule:
     - cron: 0 0 * * 6
   watch:
