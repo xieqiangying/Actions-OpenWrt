@@ -113,9 +113,21 @@ jobs:
         echo "::set-env name=FIRMWARE::$(pwd)"
         echo "::set-output name=status::success"
 
-    - name: Upload firmware directory
+
+    - name: Upload Sysupgrade bin
       uses: actions/upload-artifact@master
       if: steps.organize.outputs.status == 'success' && !cancelled()
       with:
-        name: OpenWrt_firmware
-        path: ${{ env.FIRMWARE }}
+        name: Actions-OpenWrt_openwrt-ipq40xx-p2w_r619ac-128m-squashfs-nand-sysupgrade.bin
+        path: /home/runner/work/Actions-OpenWrt/Actions-OpenWrt/openwrt/bin/targets/ipq40xx/generic/openwrt-ipq40xx-p2w_r619ac-128m-squashfs-nand-sysupgrade.bin
+    - name: Upload Factory ubi
+      uses: actions/upload-artifact@master
+      if: steps.organize.outputs.status == 'success' && !cancelled()
+      with:
+        name: Actions-OpenWrt_openwrt-ipq40xx-p2w_r619ac-128m-squashfs-nand-factory.ubi
+        path: /home/runner/work/Actions-OpenWrt/Actions-OpenWrt/openwrt/bin/targets/ipq40xx/generic/openwrt-ipq40xx-p2w_r619ac-128m-squashfs-nand-factory.ubi
+    - name: Upload SHA256SUMS
+      uses: actions/upload-artifact@master
+      with:
+        name: sha256sums
+        path: /home/runner/work/Actions-OpenWrt/Actions-OpenWrt/openwrt/bin/targets/ipq40xx/generic/sha256sums
