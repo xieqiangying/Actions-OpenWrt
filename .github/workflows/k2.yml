@@ -27,7 +27,7 @@ env:
   CONFIG_FILE: .config
   DIY_SH: diy.sh
   FREE_UP_DISK: false
-  SSH_ACTIONS: true
+  SSH_ACTIONS: false
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
   TZ: Asia/Shanghai
@@ -121,13 +121,13 @@ jobs:
       if: steps.organize.outputs.status == 'success' && !cancelled()
       with:
         name: Actions-OpenWrt_openwrt-ramips-mt7620-phicomm_psg1218a-squashfs-sysupgrade.bin
-        path: openwrt/bin/targets/ramips/mt7620/*-sysupgrade.bin
+        path: /*-sysupgrade.bin
     - name: Upload Kernel bin
       uses: actions/upload-artifact@master
       if: steps.organize.outputs.status == 'success' && !cancelled()
       with:
         name: Actions-OpenWrt_openwrt-ramips-mt7620-phicomm_psg1218a-initramfs-kernel.bin
-        path: openwrt/bin/targets/ramips/mt7620/*-kernel.bin
+        path: /*-kernel.bin
     - name: Upload SHA256SUMS
       uses: actions/upload-artifact@master
       with:
