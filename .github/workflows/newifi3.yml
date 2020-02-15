@@ -115,20 +115,9 @@ jobs:
         echo "::set-env name=FIRMWARE::$(pwd)"
         echo "::set-output name=status::success"
 
-    - name: Upload Sysupgrade bin
+    - name: Upload firmware directory
       uses: actions/upload-artifact@master
       if: steps.organize.outputs.status == 'success' && !cancelled()
       with:
-        name: Actions-OpenWrt_openwrt-ramips-mt7621-d-team_newifi-d2-squashfs-sysupgrade.bin
-        path: /home/runner/work/Actions-OpenWrt/Actions-OpenWrt/openwrt/bin/targets/ramips/mt7621/openwrt-ramips-mt7621-d-team_newifi-d2-squashfs-sysupgrade.bin
-    - name: Upload Kernel bin
-      uses: actions/upload-artifact@master
-      if: steps.organize.outputs.status == 'success' && !cancelled()
-      with:
-        name: Actions-OpenWrt_openwrt-ramips-mt7621-d-team_newifi-d2-initramfs-kernel.bin
-        path: /home/runner/work/Actions-OpenWrt/Actions-OpenWrt/openwrt/bin/targets/ramips/mt7621/openwrt-ramips-mt7621-d-team_newifi-d2-initramfs-kernel.bin
-    - name: Upload SHA256SUMS
-      uses: actions/upload-artifact@master
-      with:
-        name: sha256sums
-        path: /home/runner/work/Actions-OpenWrt/Actions-OpenWrt/openwrt/bin/targets/ramips/mt7621/sha256sums
+        name: OpenWrt_firmware
+        path: ${{ env.FIRMWARE }}
