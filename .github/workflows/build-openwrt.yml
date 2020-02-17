@@ -13,14 +13,14 @@ on:
     branches:
       - x86_64
     paths:
-      - 'Lean_x86_64.config'
+      - '.config'
   schedule:
-    - cron: 0 0 * * 6
+    - cron: 0 21 * * *
   watch:
     types: [started]
 
 env:
-  REPO_URL: https://github.com/coolsnowwolf/lede
+  REPO_URL: https://github.com/project-openwrt/openwrt
   REPO_BRANCH: master
   CONFIG_FILE: .config
   DIY_SH: diy.sh
