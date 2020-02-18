@@ -13,7 +13,7 @@ on:
     branches:
       - r619ac
     paths:
-      - '.config'
+      - 'Lean_r619ac.config'
   schedule:
     - cron: 0 21 * * *
   watch:
@@ -22,7 +22,7 @@ on:
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
-  CONFIG_FILE: .config
+  CONFIG_FILE: Lean_r619ac.config
   DIY_SH: diy.sh
   FREE_UP_DISK: false
   SSH_ACTIONS: false
