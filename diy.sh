@@ -36,7 +36,7 @@ sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' package/feeds/luci/luci/Makef
 # git clone https://github.com/project-openwrt/luci-app-unblockneteasemusic-go.git package/mine/luci-app-unblockneteasemusic-go
 
 # 网易云音乐mini
-git clone https://github.com/project-openwrt/luci-app-unblockneteasemusic-mini.git package/mine/luci-app-unblockneteasemusic-mini
+# git clone https://github.com/project-openwrt/luci-app-unblockneteasemusic-mini.git package/mine/luci-app-unblockneteasemusic-mini
 
 # disable usb3.0
 # git clone https://github.com/rufengsuixing/luci-app-usb3disable.git package/mine/luci-app-usb3disable
