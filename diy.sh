@@ -46,6 +46,3 @@ git clone https://github.com/destan19/OpenAppFilter.git package/mine/OpenAppFilt
 
 # Rclone-OpenWrt
 git clone https://github.com/ElonH/Rclone-OpenWrt.git package/mine/Rclone-OpenWrt
-
-# SmartDNS
-git clone https://github.com/RealKiro/Luci-SmartDNS.git package/mine/Luci-SmartDNS
