@@ -1,3 +1,22 @@
+# Actions Status
+
+- `R619AC(竞斗云2.0_128M)` Branch:
+  - Building Status: ![OpenWrt-R619AC](https://github.com/RealKiro/Actions-OpenWrt/workflows/OpenWrt-R619AC/badge.svg?branch=r619ac)
+  - Download Firmwares: [Actions/R619AC](https://github.com/RealKiro/Actions-OpenWrt/actions?query=is%3Asuccess+branch%3Ar619ac).
+
+- `Newifi3` Branch:
+  - Building Status: ![OpenWrt-Newifi3](https://github.com/RealKiro/Actions-OpenWrt/workflows/OpenWrt-Newifi3/badge.svg?branch=newifi3)
+  - Download Firmwares: [Actions/Newifi3](https://github.com/RealKiro/Actions-OpenWrt/actions?query=is%3Asuccess+branch%3Anewifi3).
+
+- `K2` Branch:
+  - Building Status: ![OpenWrt-k2](https://github.com/RealKiro/Actions-OpenWrt/workflows/OpenWrt-k2/badge.svg?branch=k2)
+  - Download Firmwares: [Actions/K2](https://github.com/RealKiro/Actions-OpenWrt/actions?query=is%3Asuccess+branch%3Ak2).
+
+- `X64/X86` Branch:
+  - Building Status: ![OpenWrt-X64](https://github.com/RealKiro/Actions-OpenWrt/workflows/OpenWrt-X64/badge.svg?branch=x86_64)
+  - Download Firmwares: [Actions/X64](https://github.com/RealKiro/Actions-OpenWrt/actions?query=is%3Asuccess+branch%3Ax86_64).
+
+---
 # Actions-OpenWrt
 
 [![LICENSE](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square&label=LICENSE)](https://github.com/P3TERX/Actions-OpenWrt/blob/master/LICENSE)
