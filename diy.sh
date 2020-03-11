@@ -32,6 +32,9 @@ git clone https://github.com/tty228/luci-app-serverchan.git package/mine/luci-ap
 # 网易云音乐
 # git clone https://github.com/project-openwrt/luci-app-unblockneteasemusic.git package/mine/luci-app-unblockneteasemusic
 
+# OpenClash
+git clone https://github.com/vernesong/OpenClash.git package/mine/OpenClash
+
 # 网易云音乐GoLang版本
 # git clone https://github.com/project-openwrt/luci-app-unblockneteasemusic-go.git package/mine/luci-app-unblockneteasemusic-go
 
